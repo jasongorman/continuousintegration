@@ -21,6 +21,11 @@ public class FizzBuzzTest {
 	public void divisibleByFiveIsBuzz(int input) {
 		assertEquals("Buzz", new FizzBuzz().fizzBuzz(input));
 	}
+	
+	@Test
+	public void divisibleByThreeAndFiveIsFizzBuzz() throws Exception {
+		
+	}
 
 	@Test
 	@Parameters
