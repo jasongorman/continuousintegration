@@ -24,7 +24,7 @@ public class FizzBuzzTest {
 	
 	@Test
 	public void divisibleByThreeAndFiveIsFizzBuzz() throws Exception {
-		
+		assertEquals("FizzBuzz", new FizzBuzz().fizzBuzz(15));
 	}
 
 	@Test
